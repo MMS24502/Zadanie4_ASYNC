@@ -1,0 +1,6 @@
+@Zadanie4_ASYNC_HostAddress = http://localhost:5178
+
+GET {{Zadanie4_ASYNC_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
