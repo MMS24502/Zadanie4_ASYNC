@@ -1,3 +1,5 @@
+using Zadanie4_ASYNC.Repositories;
+
 public class Program
 {
     public static void Main(string[] args)
@@ -9,7 +11,7 @@ public class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
         builder.Services.AddControllers();
-        //builder.Services.AddScoped<IAnimalsRepository, AnimalsRepository>();
+        builder.Services.AddScoped<IWarehouseRepository, WarehouseRepository>();
         
 
 
